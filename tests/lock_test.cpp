@@ -3,8 +3,8 @@
  */
 #include <type_traits>
 #include "gtest/gtest.h"
-#include "yamc_shared_lock.hpp"
-#include "yamc_scoped_lock.hpp"
+#include "yamc/yamc_shared_lock.hpp"
+#include "yamc/yamc_scoped_lock.hpp"
 #include "yamc_testutil.hpp"
 
 

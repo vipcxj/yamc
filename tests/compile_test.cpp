@@ -4,14 +4,14 @@
 #include <chrono>
 #include <mutex>
 #include <utility>  // std::{move,swap}
-#include "naive_spin_mutex.hpp"
-#include "ttas_spin_mutex.hpp"
-#include "checked_mutex.hpp"
-#include "checked_shared_mutex.hpp"
-#include "fair_mutex.hpp"
-#include "fair_shared_mutex.hpp"
-#include "alternate_mutex.hpp"
-#include "alternate_shared_mutex.hpp"
+#include "yamc/naive_spin_mutex.hpp"
+#include "yamc/ttas_spin_mutex.hpp"
+#include "yamc/checked_mutex.hpp"
+#include "yamc/checked_shared_mutex.hpp"
+#include "yamc/fair_mutex.hpp"
+#include "yamc/fair_shared_mutex.hpp"
+#include "yamc/alternate_mutex.hpp"
+#include "yamc/alternate_shared_mutex.hpp"
 #include "yamc_testutil.hpp"
 
 

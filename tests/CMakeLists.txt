@@ -1,9 +1,11 @@
-cmake_minimum_required(VERSION 3.2)
+cmake_minimum_required(VERSION 3.5)
 
 # Requires C++11
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
+
+link_libraries(yamc)
 
 # Pthread
 set(THREADS_PREFER_PTHREAD_FLAG ON)

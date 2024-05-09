@@ -3,7 +3,7 @@
  */
 #include <type_traits>
 #include "gtest/gtest.h"
-#include "yamc_barrier.hpp"
+#include "yamc/yamc_barrier.hpp"
 #include "yamc_testutil.hpp"
 
 

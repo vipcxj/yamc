@@ -29,6 +29,7 @@
 *.app
 
 # CMake.gitignore
+build/
 CMakeCache.txt
 CMakeFiles
 CMakeScripts

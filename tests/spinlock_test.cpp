@@ -3,11 +3,11 @@
  */
 #include <type_traits>
 #include "gtest/gtest.h"
-#include "naive_spin_mutex.hpp"
-#include "ttas_spin_mutex.hpp"
+#include "yamc/naive_spin_mutex.hpp"
+#include "yamc/ttas_spin_mutex.hpp"
 #include "yamc_testutil.hpp"
 #if defined(__linux__) || defined(__APPLE__)
-#include "posix_native_mutex.hpp"
+#include "yamc/posix_native_mutex.hpp"
 #define ENABLE_POSIX_NATIVE_MUTEX
 #endif
 

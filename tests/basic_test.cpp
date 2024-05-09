@@ -3,22 +3,22 @@
  */
 #include <type_traits>
 #include "gtest/gtest.h"
-#include "checked_mutex.hpp"
-#include "checked_shared_mutex.hpp"
-#include "fair_mutex.hpp"
-#include "fair_shared_mutex.hpp"
-#include "alternate_mutex.hpp"
-#include "alternate_shared_mutex.hpp"
+#include "yamc/checked_mutex.hpp"
+#include "yamc/checked_shared_mutex.hpp"
+#include "yamc/fair_mutex.hpp"
+#include "yamc/fair_shared_mutex.hpp"
+#include "yamc/alternate_mutex.hpp"
+#include "yamc/alternate_shared_mutex.hpp"
 #if defined(__linux__) || defined(__APPLE__)
-#include "posix_native_mutex.hpp"
+#include "yamc/posix_native_mutex.hpp"
 #define ENABLE_POSIX_NATIVE_MUTEX
 #endif
 #if defined(_WIN32)
-#include "win_native_mutex.hpp"
+#include "yamc/win_native_mutex.hpp"
 #define ENABLE_WIN_NATIVE_MUTEX
 #endif
 #if defined(__APPLE__)
-#include "apple_native_mutex.hpp"
+#include "yamc/apple_native_mutex.hpp"
 #define ENABLE_APPLE_NATIVE_MUTEX
 #endif
 #include "yamc_testutil.hpp"

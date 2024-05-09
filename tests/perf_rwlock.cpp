@@ -10,9 +10,9 @@
 #include <mutex>
 #include <thread>
 #include <vector>
-#include "alternate_shared_mutex.hpp"
-#include "fair_mutex.hpp"
-#include "fair_shared_mutex.hpp"
+#include "yamc/alternate_shared_mutex.hpp"
+#include "yamc/fair_mutex.hpp"
+#include "yamc/fair_shared_mutex.hpp"
 #include "yamc_testutil.hpp"
 
 

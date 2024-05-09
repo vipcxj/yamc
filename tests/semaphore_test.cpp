@@ -2,18 +2,18 @@
  * semaphore_test.cpp
  */
 #include "gtest/gtest.h"
-#include "yamc_semaphore.hpp"
+#include "yamc/yamc_semaphore.hpp"
 #include "yamc_testutil.hpp"
 #if defined(__APPLE__)
-#include "gcd_semaphore.hpp"
+#include "yamc/gcd_semaphore.hpp"
 #define ENABLE_GCD_SEMAPHORE
 #endif
 #if defined(__linux__) && !defined(__APPLE__)
-#include "posix_semaphore.hpp"
+#include "yamc/posix_semaphore.hpp"
 #define ENABLE_POSIX_SEMAPHORE
 #endif
 #if defined(_WIN32)
-#include "win_semaphore.hpp"
+#include "yamc/win_semaphore.hpp"
 #define ENABLE_WIN_SEMAPHORE
 #endif
 

@@ -7,8 +7,8 @@
  */
 #include <system_error>
 #include "gtest/gtest.h"
-#include "checked_mutex.hpp"
-#include "checked_shared_mutex.hpp"
+#include "yamc/checked_mutex.hpp"
+#include "yamc/checked_shared_mutex.hpp"
 #include "yamc_testutil.hpp"
 
 

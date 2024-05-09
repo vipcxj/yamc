@@ -34,8 +34,8 @@
 #include <system_error>
 #include <thread>
 #include <vector>
-#include "yamc_rwlock_sched.hpp"
-#include "yamc_lock_validator.hpp"
+#include "yamc/yamc_rwlock_sched.hpp"
+#include "yamc/yamc_lock_validator.hpp"
 
 
 // call std::abort() when requirements violation

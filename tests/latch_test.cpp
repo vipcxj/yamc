@@ -2,7 +2,7 @@
  * latch_test.cpp
  */
 #include "gtest/gtest.h"
-#include "yamc_latch.hpp"
+#include "yamc/yamc_latch.hpp"
 #include "yamc_testutil.hpp"
 
 

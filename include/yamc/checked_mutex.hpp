@@ -33,7 +33,7 @@
 #include <mutex>
 #include <system_error>
 #include <thread>
-#include "yamc_lock_validator.hpp"
+#include "yamc/yamc_lock_validator.hpp"
 
 
 // call std::abort() when requirements violation

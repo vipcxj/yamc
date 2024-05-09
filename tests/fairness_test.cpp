@@ -2,8 +2,8 @@
  * fairness_test.cpp
  */
 #include "gtest/gtest.h"
-#include "fair_mutex.hpp"
-#include "fair_shared_mutex.hpp"
+#include "yamc/fair_mutex.hpp"
+#include "yamc/fair_shared_mutex.hpp"
 #include "yamc_testutil.hpp"
 
 

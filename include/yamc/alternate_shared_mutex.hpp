@@ -30,7 +30,7 @@
 #include <chrono>
 #include <condition_variable>
 #include <mutex>
-#include "yamc_rwlock_sched.hpp"
+#include "yamc/yamc_rwlock_sched.hpp"
 
 
 namespace yamc {
