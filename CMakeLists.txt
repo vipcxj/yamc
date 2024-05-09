@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(yamc C CXX)
+project(yamc VERSION 1.0.0 LANGUAGES C CXX)
 
 # Requires C++11
 set(CMAKE_CXX_STANDARD 11)
